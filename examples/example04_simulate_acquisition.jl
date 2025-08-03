@@ -33,16 +33,16 @@ exclusions          = [12, 21, 23]  # Exclude heart (12), large intestine (21), 
 Npeaks              = 6             # Fat model: number of peaks (options: 1,3,4,5,6,7,9)
 rBW                 = 400.0         # Receiver bandwidth in Hz/px (e.g., 400 or 2000)
 TE_select           = 1             # Echo time configuration:
-                                    # 1 = 6-echo in-phase echo times (single-peak)
-                                    # 2 = 6-echo effective in-phase echo times (multi-peak)
+                                    # 1 = 5-echo in-phase echo times (single-peak)
+                                    # 2 = 5-echo effective in-phase echo times (multi-peak)
                                     # 3 = 6-echo CSE acquisition for graph cut methods
 
 # =================== MAIN CODE =================
 # === Define cases and echo times ===
 cases                   = ["healthy_subject", "iron_overload", "pathological_lobe"]
-TE_inphase              = [2.3]             # Single-peak in-phase TE
-TE_effinphase           = [1.15]            # Multi-peak effective in-phase TE
-TE_cse                  = [1.15, 2.3]       # TE pair for CSE reconstruction
+TE_inphase              = [2.30, 4.60, 6.90, 9.20, 11.50]            # Single-peak in-phase TE
+TE_effinphase           = [2.34, 4.57, 6.77, 9.14, 11.59]            # Multi-peak effective in-phase TE
+TE_cse                  = [1.8, 3.36, 4.92, 6.48, 8.04, 9.6]         # CSE acquisition
 TE_ms                   = [TE_inphase, TE_effinphase, TE_cse]
 
 # === Simulate Susceptibility map ===
