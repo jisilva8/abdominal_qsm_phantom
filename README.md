@@ -43,6 +43,7 @@ Running the example scripts will save output files in the corresponding subfolde
 
 The repository contains the following main folders:
 
+```
 C:.
 ├── examples
 │ ├── example01_synthetic_chi.jl
@@ -62,6 +63,7 @@ C:.
 ├── Manifest.toml
 ├── Project.toml
 └── setup.jl
+```
 
 - `src/`: Core source code including models, MRI signal simulation, data saving, and tissue property modules.
 - `examples/`: Example Julia scripts demonstrating various simulations and use cases.
