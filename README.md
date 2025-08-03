@@ -50,7 +50,7 @@ C:.
 │ ├── example02_synthetic_r2star.jl
 │ ├── example03_synthetic_fieldmap.jl
 │ └── example04_simulate_acquisition.jl
-├── results
+├── results (Created after running examples)
 │ ├── ex01_synthetic_chi
 │ ├── ex02_synthetic_r2star
 │ ├── ex03_synthetic_fieldmap
@@ -67,7 +67,7 @@ C:.
 
 - `src/`: Core source code including models, MRI signal simulation, data saving, and tissue property modules.
 - `examples/`: Example Julia scripts demonstrating various simulations and use cases.
-- `results/`: Folder where output files from the example simulations are saved.
+- `results/`: - `results/`: Folder where output files from the example simulations are saved. Running the examples will generate these folders.
 - `Project.toml` and `Manifest.toml`: Julia environment files managing dependencies.
 - `setup.jl`: Script to initialize the project environment.
 
