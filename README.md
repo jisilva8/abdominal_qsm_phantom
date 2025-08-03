@@ -67,7 +67,7 @@ C:.
 
 - `src/`: Core source code including models, MRI signal simulation, data saving, and tissue property modules.
 - `examples/`: Example Julia scripts demonstrating various simulations and use cases.
-- `results/`: - `results/`: Folder where output files from the example simulations are saved. Running the examples will generate these folders.
+- `results/`: Folder where output files from the example simulations are saved. Running the examples will generate these folders.
 - `Project.toml` and `Manifest.toml`: Julia environment files managing dependencies.
 - `setup.jl`: Script to initialize the project environment.
 
