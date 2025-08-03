@@ -1,0 +1,10 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+MeshGrid = "ebf956a0-ef5e-43be-9fb1-27952996e635"
+NIfTI = "a3a9e032-41b5-5fc4-967a-a6b7a19844d3"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"

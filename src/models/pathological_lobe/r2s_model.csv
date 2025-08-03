@@ -1,0 +1,24 @@
+tissue,change,r2s_newval,r2s_mean,alpha
+Aorta,0,0,0.1317,0
+Inferior vena cava (IVC),0,0,0.1216,0
+Right kidney (RK),0,0,0.1188,0
+Left kidney (LK),0,0,0.1172,0
+Liver,0,0,0.2002,0
+Spleen,0,0,0.1168,0
+Gallbladder (GB),0,0,0.0925,0
+Esophagus,0,0,0.2254,0
+Stomach,0,0,0.3932,0
+Pancreas,0,0,0.1544,0
+Small intestine (SI),0,0,0.1893,0
+Large intestine (LI),0,0,0.7184,0
+Hepatic veins (HV),0,0,0.1632,0
+Porta vein (PV),0,0,0.1317,0
+Ribs,0,0,0.6278,0
+Vertebrae ,0,0,0.6669,0
+Intervertebral disks (IVD),0,0,0.3676,0
+Spinal cord (SC),0,0,0.1462,0
+Subcutaneous fat (SF),0,0,0.3018,0
+Visceral fat (VF),0,0,0.2884,0
+Heart,0,0,0.2189,0
+Muscle,0,0,0.3034,0
+Air,0,0,0.5059,0
