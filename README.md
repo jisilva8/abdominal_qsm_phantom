@@ -2,6 +2,13 @@
 
 **Abdominal QSM Phantom** is a Julia toolbox for simulating and analyzing abdominal quantitative susceptibility mapping (QSM). The toolbox enables creation of synthetic susceptibility maps, R2* maps, fieldmaps, and simulation of complex water-fat signal acquisitions. It is ideal for validating water-fat separation, background field removal, and QSM methods.
 
+**Main  Features**
+   1. Synthetic and editable susceptibility and R2* maps.
+   2. Multi-peak fat models.
+   3. rBW-dependant chemical shift displacement of fat signal.
+   4. rBW-dependant SNR.
+   5. Multiecho simulations at user-provided TEs.
+
 ---
 
 ## Installation and Setup
